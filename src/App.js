@@ -6,7 +6,7 @@ const word = "Hello";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div class="App">
         {
           Array.from(word).map((c, i) => <CharacterCard value={c} key={i}/>)
         }
